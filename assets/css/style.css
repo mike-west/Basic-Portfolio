@@ -27,17 +27,24 @@
    margin-bottom: 10px;
  }
 
+ hr { color: #cccccc;}
+
  #nav {
-   background-color: white;
+   background-color: #ffffff;
    width: 960px;
+   color: #cccccc;
  }
+
+
+ h3 { color: #cccccc;}
 
  #maincontent {
    width:  70%;
    padding: 20px;
    margin-left: 150px;
    margin-top: 20px;
-   background-color: white;
+   background-color: #ffffff;
+   color: #cccccc;
  }
 
  .onelinetxt {
