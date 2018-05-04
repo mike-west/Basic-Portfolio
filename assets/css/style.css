@@ -32,7 +32,6 @@
 
  #maincontent {
    width:  70%;
-   float: left;
    padding: 20px;
    margin-left: 150px;
    margin-top: 20px;
@@ -54,6 +53,21 @@
    background-color: teal;
    color: white;
    padding: 4px;
+ }
+
+ .portfolio-image {
+   width: 200px;
+   height: 100px;
+ }
+
+ .img-and-desc {
+   float: left;
+   margin-left: 10px;
+   margin-top: 20px;
+ }
+
+ .image-txt {
+   text-align: center;
  }
 
  .clearfix::after {
