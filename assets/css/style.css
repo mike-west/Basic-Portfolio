@@ -1,8 +1,46 @@
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
-  h3 {
-    position: relative;
-  }
+ body {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 960px;
+  background-color: #bebebe;
+ }
+
+ h1 {
+   float: left;
+   width: 60%;
+ }
+
+ h3 {
+   margin-top: 21px;
+   float: left;
+   width: 13%;
+   font-size: smaller;
+ }
+
+ img {
+   float: left;
+ }
+
+ #nav {
+   background-color: white;
+   width: 960px;
+ }
+
+ #maincontent {
+   width:  70%;
+   float: left;
+   padding: 20px;
+   margin-left: 150px;
+   margin-top: 20px;
+   background-color: white;
+ }
+
+ .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
